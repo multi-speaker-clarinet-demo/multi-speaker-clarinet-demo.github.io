@@ -8,7 +8,7 @@
   <body>
 
     <div>
-      <h3>Experiment I: Multi-speaker speech synthesis</h3>
+      <h3>Multi-speaker speech synthesis</h3>
       We obtain synthesized speech from the following multi-speaker TTS model trained on the VCTK data set:<br>
       ClariNet model with 40 layer WaveNet vocoder (ClariNet-40)<br>
       Deep Voice 2 model with 80 layer WaveNet vocoder (DeepVoice2-80)<br>
@@ -192,8 +192,8 @@
 
     <br> </br>
     <div>
-      <h3> Experiment II: Voice cloning using multi-speaker ClariNet</h3>
-      We use speaker embeddings obtained from trained multi-speaker ClariNet model to train a speaker encoder model that predict the embedding of a speaker based on a few ground truth audio clips from this particular speaker. This predicted speaker embedding is then fed to multi-speaker ClariNet to generate the voice cloned audios. The following are some preliminary examples of this experiment.
+      <h3> Bonus: Voice cloning using multi-speaker ClariNet</h3>
+      We use speaker embeddings obtained from trained multi-speaker ClariNet model to train a speaker encoder model that predict the embedding of a speaker based on a few ground truth audio clips from this particular speaker. This predicted speaker embedding is then fed to multi-speaker ClariNet to generate the voice cloned audios. The following are some very preliminary examples of this experiment.
       <h3> </h3>
 
     <table>
@@ -208,40 +208,16 @@
         <tr></tr>
         <tr></tr>
         <tr>
-          <td><audio controls=""><source src="samples/ground-truth/s0.wav" type="audio/wav"></audio></td>
-          <td><audio controls=""><source src="samples/voice-clone/u2_s0.wav" type="audio/wav"></audio></td>
-        </tr>
-        <tr>
-          <td><audio controls=""><source src="samples/ground-truth/s1.wav" type="audio/wav"></audio></td>
-          <td><audio controls=""><source src="samples/voice-clone/u2_s1.wav" type="audio/wav"></audio></td>
-        </tr>
-        <tr>
-          <td><audio controls=""><source src="samples/ground-truth/s2.wav" type="audio/wav"></audio></td>
-          <td><audio controls=""><source src="samples/voice-clone/u2_s2.wav" type="audio/wav"></audio></td>
-        </tr>
-        <tr>
-          <td><audio controls=""><source src="samples/ground-truth/s3.wav" type="audio/wav"></audio></td>
-          <td><audio controls=""><source src="samples/voice-clone/u2_s3.wav" type="audio/wav"></audio></td>
-        </tr>
-        <tr>
-          <td><audio controls=""><source src="samples/ground-truth/s4.wav" type="audio/wav"></audio></td>
-          <td><audio controls=""><source src="samples/voice-clone/u2_s4.wav" type="audio/wav"></audio></td>
-        </tr>
-        <tr>
-          <td><audio controls=""><source src="samples/ground-truth/s5.wav" type="audio/wav"></audio></td>
-          <td><audio controls=""><source src="samples/voice-clone/u2_s5.wav" type="audio/wav"></audio></td>
-        </tr>
-        <tr>
-          <td><audio controls=""><source src="samples/ground-truth/s6.wav" type="audio/wav"></audio></td>
-          <td><audio controls=""><source src="samples/voice-clone/u2_s6.wav" type="audio/wav"></audio></td>
+          <td><audio controls=""><source src="samples/ground-truth/s8.wav" type="audio/wav"></audio></td>
+          <td><audio controls=""><source src="samples/voice-clone/u2_s8.wav" type="audio/wav"></audio></td>
         </tr>
         <tr>
           <td><audio controls=""><source src="samples/ground-truth/s7.wav" type="audio/wav"></audio></td>
           <td><audio controls=""><source src="samples/voice-clone/u2_s7.wav" type="audio/wav"></audio></td>
         </tr>
         <tr>
-          <td><audio controls=""><source src="samples/ground-truth/s8.wav" type="audio/wav"></audio></td>
-          <td><audio controls=""><source src="samples/voice-clone/u2_s8.wav" type="audio/wav"></audio></td>
+          <td><audio controls=""><source src="samples/ground-truth/s3.wav" type="audio/wav"></audio></td>
+          <td><audio controls=""><source src="samples/voice-clone/u2_s3.wav" type="audio/wav"></audio></td>
         </tr>
       </tbody>
     </table>
